@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: grid;
+        height: 615px;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .box {
+        border: 2px solid pink;
+      }
+      .box1 {
+        background: url("box6.jpg") no-repeat center center/cover;
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+      }
+      .box2 {
+        background: url("box1.jpg") no-repeat center center/cover;
+      }
+      .box3 {
+        background: url("box3.jpg") no-repeat center center/cover;
+      }
+      .box4 {
+        background: url("box4.jpg") no-repeat center center/cover;
+      }
+      .box5 {
+        background: url("box5.jpg") no-repeat center center/cover;
+      }
+      .box6 {
+        background: url("box2.jpg") no-repeat center center/cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+      <div class="box box5"></div>
+      <div class="box box6"></div>
+    </div>
+  </body>
+</html>
